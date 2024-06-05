@@ -1,0 +1,372 @@
+.navprogress_content {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.visible {
+    display: flex;
+}
+
+.notVisible {
+    display: none;
+}
+
+/* Estilos para ocultar inicialmente la lista */
+.listas_recuperar_formulario {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los enlaces de la lista */
+.listas_recuperar_formulario div {
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    display: block;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Mostrar la lista cuando se hace clic en el botón */
+.menu_recuperar_formulario:hover .listas_recuperar_formulario {
+    display: flex;
+}
+
+
+.categoria_container {
+    margin: 10px;
+    /* background-color: white; */
+    /* display: flex; */
+    gap: 10px;
+    flex-direction: column;
+    /* align-items: stretch; */
+    /* width: max-content; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.subcategoria_container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    /* border: 3px black solid; */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.5);
+    max-width: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.titulo_cubcategoria {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1;
+    z-index: 1;
+    position: relative;
+}
+
+.container_preguntas_subcategoriacategoria {
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+.pregunta-container {
+    margin: 15px;
+    padding: 15px;
+    /* position: relative; */
+}
+
+.input_custom_formulario {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    /* Elimina el borde de enfoque */
+    transition: 0.3s;
+}
+
+.input_custom_formulario:focus-visible {
+    border-bottom: 1px solid rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.95);
+}
+
+.input_custom_select_formulario {
+    background-color: transparent;
+    border: 0;
+}
+
+.container-respuestas-custom-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    line-height: 1;
+}
+
+label.label_custom_radio_formulario {
+    text-align: left;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+span.mandatory {
+    color: red;
+}
+
+input[type="radio"] {
+    /* width: 20px; */
+    height: 20px;
+    /* margin-right: 5px; */
+}
+
+.form_navbuttons_container {
+    display: flex;
+    justify-content: center;
+}
+
+.texto_formulario {
+    line-height: 1;
+    font-size: 1.15em;
+}
+
+.navprogress_elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 15px;
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.navwidget {
+    text-align: center;
+    margin: 5px;
+    --widthBox: 15px;
+    display: flex;
+    border: 1px solid var(--colorM);
+    width: calc(2*var(--widthBox));
+    height: calc(2*var(--widthBox));
+    /* color: var(--colorM); */
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navwidget::before {
+    width: calc(50% + 15px - var(--widthBox));
+    height: 3px;
+    position: absolute;
+    content: "";
+    background-color: var(--lastColorM);
+    background-color: gray;
+    opacity: 0.7;
+    left: -15px;
+}
+
+.navwidget::after {
+    width: 50%;
+    height: 3px;
+    position: absolute;
+    content: "";
+    background-color: var(--colorM);
+    background-color: gray;
+    opacity: 0.7;
+    left: calc(50% + (var(--widthBox)));
+}
+
+.categoria_nav_completa_next>.navwidget::before {
+    background-color: var(--lastColorM);
+    opacity: 1;
+}
+
+.categoria_nav_completa>.navwidget::after {
+    background-color: var(--colorM);
+    opacity: 1;
+}
+
+.navprogress_elements:first-child>div::before {
+    width: 0px;
+}
+
+.navprogress_elements:last-child>div::after {
+    width: 0px;
+}
+
+.btn_custom_form {
+    /* color: red; */
+    border: 0;
+    padding: 15px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+
+.elementIsLeft {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.05);
+
+}
+
+.elementIsLeft::after {
+    content: "Recuerde llenar este espacio";
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+
+/* Estilos para el botón del menú */
+.boton_recuperar_formulario {
+    cursor: pointer;
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+.main_nav_element {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+body {
+    background-image: url(https://ogabogota.unal.edu.co/wp-content/uploads/2023/09/fondo.jpg);
+    /* background-size: cover; */
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.navprogress_container {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.navprogress_container>span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+p.titulo_formulario {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.subcategoria_container::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    overflow: hidden;
+    border-right: 7ch solid transparent;
+    border-top: 7ch solid rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.5);
+    border-left: 7ch solid rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.5);
+    border-bottom: 7ch solid transparent;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px 0px;
+    z-index: 0;
+    transition: 0.5s;
+}
+
+.subcategoria_container::after {
+    content: ".";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    overflow: hidden;
+    border-right: 7ch solid rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.5);
+    border-top: 7ch solid transparent;
+    border-left: 7ch solid transparent;
+    border-bottom: 7ch solid rgba(var(--colorCategoriaR), var(--colorCategoriaG), var(--colorCategoriaB), 0.5);
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px 0px;
+    z-index: 0;
+    transition: 0.5s;
+}
+
+#tooltip {
+    /* ... */
+    display: none;
+}
+
+#tooltip[data-show] {
+    display: block;
+}
+
+.custom-tooltip {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+}
+
+#dark-layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    z-index: 3;
+    opacity: 30%;
+}
+
+.url-popup {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.url-popupVisible {
+    display: inline;
+}
+
+.url-popupNonVisible {
+    display: none;
+}
+
+#popup {
+    border: 0px;
+    padding: 0px;
+    Overflow: auto;
+    border-radius: 15px;
+}
+
+#btnCerrarPopup {
+    position: absolute;
+    top: 5%;
+    left: 92.5%;
+}
+
+.popUpContainer {
+    padding: 20px;
+    border-radius: 10px;
+    /* overflow-y: scroll; */
+}

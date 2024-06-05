@@ -1,0 +1,54 @@
+<div>
+    <div>
+        <h2>Meta <span id="mainTitle"></span></h2>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h3>Avances</h3>
+            </div>
+            <div>
+                <table class="table table-hover" id="avanceList">
+                    <tr>
+                        <td class="">Avance</td>
+                        <td class="">Descripcion</td>
+                        <td class="">Fecha</td>
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="titleForm"><h2>Agregar Avance</h2></div>
+        <div id="idAvance"></div>
+        <div id="idMeta"></div>
+        <div>
+            <label for="selectPorcentaje">Porcentaje</label>
+            <select class="form-control" id="selectPorcentaje">
+                <option>0%</option>
+                <option>10%</option>
+                <option>20%</option>
+                <option>30%</option>
+                <option>40%</option>
+                <option>50%</option>
+                <option>60%</option>
+                <option>70%</option>
+                <option>80%</option>
+                <option>90%</option>
+                <option>100%</option>
+            </select>
+        </div>
+        <div>
+            <label for="inputDescripcionAvance">Descripcion</label>
+            <textarea class="form-control" id="inputDescripcionAvance" rows="3"></textarea>
+        </div>
+        <div id="containerBtnInsertAvance">
+            <button class="btn btn-primary"  id="btnInsertAvance" onclick="pressInsert()">Agregar</button>
+        </div>
+        <div id="containerBbtnModifyAvance">
+            <button class="btn btn-primary"  id="btnModifyAvance" onclick="sendModify()">Modificar</button>
+            <button class="btn btn-primary"  id="btnCancelModify">Cancelar</button>
+        </div>
+    </div>
+</div>

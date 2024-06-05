@@ -1,0 +1,62 @@
+<div>
+    <div>
+        <h2>Objetivo <span id="mainTitle"></span></h2>
+    </div>
+    <div>
+        <div>
+            <div>
+                <table class="table table-hover" id="ObjetiveList">
+                    <tr>
+                        <td class="">Facultad</td>
+                        <td class="">Nombre</td>
+                        <td class="">Descripcion</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div>
+        <div id="titleForm"><h2>Agregar Objetivo</h2></div>
+        <div id="idObjetivo"></div>
+        <div>
+            <label for="selectFacultadObjetivo">Facultad</label>
+            <select class="form-control" id="selectFacultadObjetivo">
+                <option>Odontologia</option>
+                <option>Veterinaria</option>
+                <option>Medicina</option>
+                <option>Ingenieria</option>
+                <option>Derecho</option>
+                <option>Ciencias</option>
+                <option>Ciencias Humanas</option>
+                <option>Ciencias Economicas</option>
+                <option>Ciencias Agrarias</option>
+                <option>Artes</option>
+                <option>Enfermeria</option>
+            </select>
+        </div>
+        <div>
+            <label for="inputNombreObjetivo">Nombre</label>
+            <input type="text" class="form-control" id="inputNombreObjetivo" placeholder="mejora">
+        </div>
+        <div>
+            <label for="exampleInputName2">Descripcion</label>
+            <textarea class="form-control" id="inputDescipcionObjetivo" rows="3"></textarea>
+        </div>
+        <div>
+            <input type="color" id="selectColor">
+        </div>
+        <div id="ContainerCheckBoxVisible">
+            <label>
+                <input type="checkbox" id="checkBoxVisible" value="option1" > Visible
+            </label>
+        </div>
+        <div id="containerBtnInsertObjetive">
+            <button class="btn btn-primary"  id="btnInsertObjetive" onclick="pressInsert()">Agregar</button>
+        </div>
+        <div id="containerBbtnModifyObjetive">
+            <button class="btn btn-primary"  id="btnModifyObjetive" onclick="sendModify()">Modificar</button>
+            <button class="btn btn-primary"  id="btnCancelModify">Cancelar</button>
+        </div>
+    </div>
+</div>

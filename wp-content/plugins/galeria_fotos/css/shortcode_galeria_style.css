@@ -1,0 +1,201 @@
+.galeria-BodyStructure {
+    width: 100%;
+}
+
+.horizontal-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria-HTMLContainer {
+    width: 100%;
+    gap: 25px;
+}
+
+.row-images {
+    width: 100%;
+    gap: 25px;
+}
+
+.album-image-container img {
+    width: 100%;
+}
+
+.album-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-ver-album {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+.album-tittle {
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    padding: 10px;
+    line-height: 1em;
+    background-color: hsl(0deg 0% 0% / 0.3);
+    width: 100%;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.btn-ver-album {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: hsl(0deg 0% 0% / 0.6);
+}
+
+.svg-cargando {
+    width: 120px;
+    height: 120px;
+    animation: rotate 0.8s ease-in-out infinite;
+    opacity: 0.8;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        opacity: 0.8;
+    }
+}
+
+#modalContentAlbumGaleria {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.modalElementAlbumGaleria img {
+    width: 100%;
+    min-width: 220px;
+    max-width: 500px;
+}
+
+.modalrowAlbumGaleria {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.btn-close-modal {
+    right: 20px;
+    top: 20px;
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: .25em .25em;
+    color: #000;
+    border: 0;
+    border-radius: .25rem;
+    opacity: .5;
+}
+
+.btn-close-modal svg:focus {
+    border: 0;
+}
+
+dialog#modalAlbumGaleria {
+    width: 70%;
+    z-index: 100;
+    height: 80%;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.modalFooter {
+    bottom: 20px;
+    width: 90%;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#modalAlbumGaleriaLabel {
+    margin: 10px;
+    font-size: 1.7em;
+    opacity: 0.7;
+    font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+}
+
+.galeria-BodyStructure {
+    padding: 25px;
+}
+
+.btn.btn-secondary {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.3rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn.btn-secondary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+#dark-layer {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+    z-index: 3;
+    opacity: 50%;
+}
+
+.modalElementAlbumGaleria span {
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+    display: block;
+    line-height: 1;
+}

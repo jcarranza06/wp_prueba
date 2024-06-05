@@ -1,0 +1,27 @@
+.imageForGaleryModalCell {
+    height: 100px;
+}
+
+button.arrow-movement.arrow-down svg {
+    transform: rotate(180deg);
+}
+
+.visibility-none {
+    display: none;
+}
+
+.svg-cargando {
+    width: 120px;
+    height: 120px;
+    animation: rotate 0.8s ease-in-out infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "nombre": "formulario",
+    "categorias": [
+        {
+            "nombre": "DATOS GENERALES",
+            "se_cuenta_en_puntaje": false,
+            "color": "#8D32FA",
+            "subgrupos": [
+                {
+                    "nombre": "Datos de quien diligencia el formulario",
+                    "preguntas": [
+                        {
+                            "texto": "Correo electrónico",
+                            "tipo": "TEXT",
+                            "tipoTexto": "email",
+                            "placeHolder": "ejemplo@unal.edu.co",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false,
+                            "tooltip": false,
+                            "tooltipText":"texto de tooltip de prueba"
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Datos quien atiende la visita",
+                    "preguntas": [
+                        {
+                            "texto": "Correo electrónico",
+                            "tipo": "TEXT",
+                            "tipoTexto": "email",
+                            "placeHolder": "correo@unal.edu.co",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false,
+                            "tooltip": false,
+                            "tooltipText":"texto de tooltip de prueba"
+                        },
+                        {
+                            "texto": "Unidad Generadora",
+                            "tipo": "TEXT",
+                            "tipoTexto": "text",
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false,
+                            "tooltip": false,
+                            "tooltipText":"Hermes 1"
+                        },
+                        {
+                            "texto": "Edificio",
+                            "tipo": "TEXT",
+                            "tipoTexto": "text",
+                            "placeHolder": "asd",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false,
+                            "tooltip": false,
+                            "tooltipText":"texto de tooltip de prueba"
+                        },
+                        {
+                            "texto": "Ingrese un número celular",
+                            "tipo": "TEXT",
+                            "tipoTexto": "number",
+                            "placeHolder": "1000452312",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false,
+                            "tooltip": false,
+                            "tooltipText":"texto de tooltip de prueba"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "nombre": "INSUMOS",
+            "se_cuenta_en_puntaje": true,
+            "color": "#326CFA",
+            "subgrupos": [
+                {
+                    "nombre": "Bolsas",
+                    "preguntas": [
+                        {
+                            "texto": "Bolsas pequeñas",
+                            "tipo": "TEXT",
+                            "tipoTexto": "number",
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false
+                        },
+                        {
+                            "texto": "Bolsas Medianas",
+                            "tipo": "TEXT",
+                            "tipoTexto": "number",
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false
+                        },
+                        {
+                            "texto": "Bolsas grandes",
+                            "tipo": "TEXT",
+                            "tipoTexto": "number",
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Bidones",
+                    "preguntas": [
+                        {
+                            "texto": "Cantidad de bidones",
+                            "tipo": "TEXT",
+                            "tipoTexto": "number",
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false
+                        }
+                    ]
+                },
+                {
+                    "nombre": "Bidones",
+                    "preguntas": [
+                        {
+                            "texto": "Cantidad de bidones",
+                            "tipo": "TABLE",
+                            "columnas": [
+                                {
+                                    "nombre":"Número de rótulo Tipo de residuo",
+                                    "tipo":"number",
+                                    "obligatoria": true,
+                                    "placeHolder": ""
+                                },
+                                {
+                                    "nombre":"Observaciones sobre la sustancia",
+                                    "tipo":"text",
+                                    "obligatoria": false,
+                                    "placeHolder": ""
+                                },
+                                {
+                                    "nombre":"Tiempo de acopio temporal",
+                                    "tipo":"text",
+                                    "obligatoria": true,
+                                    "placeHolder": ""
+                                }
+                            ],
+                            "placeHolder": "",
+                            "obligatoria": true,
+                            "able": true,
+                            "contable": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

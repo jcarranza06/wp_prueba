@@ -1,0 +1,2139 @@
+{
+   "nombre": "formulario",
+   "categorias": [
+       {
+           "nombre": "DATOS GENERALES",
+           "se_cuenta_en_puntaje": false,
+           "color": "#8D32FA",
+           "subgrupos": [
+               {
+                   "nombre": "Datos de quíen diligencia el formulario",
+                   "preguntas": [
+                       {
+                           "texto": "Documento de identificación",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "1000452312",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false,
+                           "tooltip": false,
+                           "tooltipText":"texto de tooltip de prueba"
+                       },
+                       {
+                           "texto": "Nombres y Apellidos",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false,
+                           "tooltip": false,
+                           "tooltipText":"texto de tooltip de prueba"
+                       },
+                       {
+                           "texto": "Correo electrónico",
+                           "tipo": "TEXT",
+                           "tipoTexto": "email",
+                           "placeHolder": "ejemplo@unal.edu.co",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false,
+                           "tooltip": false,
+                           "tooltipText":"texto de tooltip de prueba"
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Datos generales del lugar a evaluar",
+                   "preguntas": [
+                       {
+                           "texto": "Laboratorio/Área",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "123",
+                           "obligatoria": true,
+                           "able": true,
+                           "extra": "onblur='formulario.ontype()'",
+                           "contable": false
+                       },
+                       {
+                           "texto": "Ciudad",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Bogota",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Sede",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Bogota",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Facultad",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Medicina",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Departamento",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Departamento de Agronomía Bogotá",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Nombre del Laboratorio/Área",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Morfología",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Número de edificio",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "453",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Teléfono",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Correo electrónico",
+                           "tipo": "TEXT",
+                           "tipoTexto": "email",
+                           "placeHolder": "correo@unal.edu.co",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "Nombre del responsable del Laboratorio/Área",
+                           "tipo": "TEXT",
+                           "tipoTexto": "text",
+                           "placeHolder": "Juan",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       }
+                   ]
+               }
+           ]
+       },
+       {
+           "nombre": "INFRAESTRUCTURA",
+           "se_cuenta_en_puntaje": true,
+           "color": "#326CFA",
+           "subgrupos": [
+               {
+                   "nombre": "Tomacorrientes",
+                   "preguntas": [
+                       {
+                           "texto": "¿Existen tomacorrientes sin cercanía a agua, no rotos y en buen estado?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los paneles eléctricos están señalizados con riesgo eléctrico?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Panel eléctrico se encuentra en gabinete o tapa protectora",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Existen acometidas de gas natural?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Dispositivos de detección de fuego y sistemas de respuesta",
+                   "preguntas": [
+                       {
+                           "texto": "¿Se cuenta con dispositivo de detección de fuego?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Sistemas de Drenaje (sifones)",
+                   "preguntas": [
+                       {
+                           "texto": "Sistemas de drenaje (sifones)",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Existe y se conecta al sistema de alcantarillado",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Existe y no se conecta al sistema de alcantarillado",
+                                   "value": 0.5,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Pisos",
+                   "preguntas": [
+                       {
+                           "texto": "Liso, sin ondulaciones.",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Impermeable",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Libre de Grietas",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Con desnivel hacia el sistema de recolección  ",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Orden y Aseo",
+                   "preguntas": [
+                       {
+                           "texto": "¿Se cuenta con registro de limpieza y desinfección del laboratorio y del almacén?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los pisos, mesones, paredes y estantería se encuentran libres de polvo y suciedad?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿El material y equipos de trabajo se encuentran limpios?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se tienen vías de evacuación y emergencia despejadas y limpias?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Mesones",
+                   "preguntas": [
+                       {
+                           "texto": "Material y condiciones de los mesones o superficies de trabajo donde se manipulan las sustancias químicas?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Impermeable",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Cerámico",
+                                   "value": 0.75,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Metálico",
+                                   "value": 0.25,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Madera",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los mesones son lisos?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los mesones están libres de grietas?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               }
+           ]
+       },
+       {
+           "nombre": "SEGURIDAD Y SALUD EN EL TRABAJO",
+           "se_cuenta_en_puntaje": true,
+           "color": "#32C3FA",
+           "subgrupos": [
+               {
+                   "nombre": "Atención de emergencias",
+                   "preguntas": [
+                       {
+                           "texto": "¿Se conoce el plan de emergencias del laboratorio, área o edificio?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se cuenta con botiquín?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se cuenta con camilla y accesorios?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Estado de la ducha",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Existe y en funcionamiento",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Existe pero fuera de uso",
+                                   "value": 0.5,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Inexistente",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Estado del lavaojos",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Existe y en funcionamiento",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Existe pero fuera de uso",
+                                   "value": 0.5,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Inexistente",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Extintores (el cuello debe ser azul o rojo; idealmente, el extintor debe ser amarillo multipropósito ABC)",
+                   "preguntas": [
+                       {
+                           "texto": "Estado de los extintores",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Existen y no están vencidos",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Existe pero fuera de uso",
+                                   "value": 0.5,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No existen",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se encuentran extintores ubicados a alturas menores a 1,5 m?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Los extintores se encuentran señalizados?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Se encuentran extintores mínimo 1 por cada 50 m2?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Señalización, demarcación de áreas y peligros ",
+                   "preguntas": [
+                       {
+                           "texto": "¿Se cuenta con salida de emergencia para evacuación?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se tiene zona de lavado de manos?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se tiene zona de lavado de material?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Elementos de protección personal",
+                   "preguntas": [
+                       {
+                           "texto": "¿Conoce los elementos de protección personal según sustancia química a trabajar?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Usa ropa de protección personal? (overol, bata, peto, etc.)",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Utiliza protección respiratoria?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Tiene implementos de protección de manos?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Usa protección auditiva?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Utiliza protección visual?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/a",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       }
+                   ]
+               }
+           ]
+       },
+       {
+           "nombre": "CONDICIONES DE ALMACENAMIENTO DE SUSTANCIAS QUÍMICAS",
+           "se_cuenta_en_puntaje": true,
+           "color": "#32FA3E",
+           "subgrupos": [
+               {
+                   "nombre": "Área específica para el almacenamiento de sustancias químicas",
+                   "preguntas": [
+                       {
+                           "texto": "¿Se cuenta con área específica para el almacenamiento?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se almacenan las sustancias químicas en sitios o lugares especiales acorde con su clase y categoría de peligro?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Conoce usted el sistema Globalmente Armonizado de clasificación y etiquetado de productos químicas SGA?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "El área de almacenamiento está ",
+                   "preguntas": [
+                       {
+                           "texto": "Aseado",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Señalizado",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Ordenado",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se almacenan las sustancias químicas peligrosas garantizando que no haya incompatibilidad entre ellas",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se cuenta con un inventario detallado de todas las sustancias químicas que se utilizan actualizado en el último trimestre?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Las sustancias químicas almacenadas están debidamente protegidas para evitar caídas y derrames",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se cuentan con estantería resistente a sustancias químicas",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Los residuos/ reactivos/sustancias químicas que están almacenadas al nivel del suelo se encuentran en:",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Estiba antiderrames",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Estiba regular",
+                                   "value": 0.5,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "Sobre el suelo (sin aislamiento)",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Sistema de atención de derrames",
+                   "preguntas": [
+                       {
+                           "texto": "¿En caso de un derrame o incidente químico, se cuenta con un kit o elementos de atención de derrames para atender la emergencia?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿El kit o elementos de atención del los derrames, tiene la capacidad para atender los volumenes almacenados?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿El kit o elementos de atención de derrames, esta completo?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Conoce su ubicación?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se encuentra capacitado para su uso?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Conoce la línea de emergencias?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "La ubicación de los  envases en el almacenamiento garantiza que:",
+                   "preguntas": [
+                       {
+                           "texto": "Los envases frágiles (vidrio) están ubicados a alturas menores de 0.4 m",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se tienen envases ubicados a alturas menores de 1.5 m",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se cuenta con estantería que tengan mecanismos para evitar la caída de sustancias y asegurar su estabilidad",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Los envases que contienen  sustancias químicas se encuentran:",
+                   "preguntas": [
+                       {
+                           "texto": "Limpios (sin residuos en el exterior)",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "En buen estado, sin fracturas o daños visibles",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Todos tienen tapa y están cerrados",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Las sustamcias quimicas se encuentran vencidas?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Identificación de  envases de sustancias químicas",
+                   "preguntas": [
+                       {
+                           "texto": "¿Las sustancias químicas se encuentran debidamente identificadas y con su respectiva etiqueta bajo SGA?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿En caso de trasvasar sustancias químicas se cuenta con etiquetas para señalizar los nuevos recipientes?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Se cuentan con las fichas de datos de seguridad de todas las sustancias químicas almacenadas en el lugar de uso (fisica o digital)",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Las estanterías donde se almacenan las sustancias químicas cuentan con los pictogramas de advertencia?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los contenedores de mezclas de sustancias químicas se encuentran etiquetados con el SGA?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Se cuenta con afiche de categorías de peligro del SGA",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se cuenta con afiche de incompatibilidad de sustancias químicas para almacenamiento",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Gases presurizados",
+                   "preguntas": [
+                       {
+                           "texto": "¿En el laboratorio se maneja gases presurizados?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Los gases presurizados dentro del laboratorio están",
+                   "preguntas": [
+                       {
+                           "texto": "En lugar seco",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Aislados de fuentes de ignición",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Protegidos del sol",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Debidamente rotulados",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Los gases presurizados que están fuera del laboratorio están",
+                   "preguntas": [
+                       {
+                           "texto": "En lugar seco",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Aislados de fuentes de ignición",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Protegidos del sol",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "Se tienen rotuladas las mezclas de las sustancias químicas",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿Los gases presurizados que utiliza el laboratorio están debidamente asegurados (cadena) para evitar caídas o golpes?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       },
+                       {
+                           "texto": "¿El lugar donde están situados los gases presurizados se encuentra debidamente señalizado?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": false
+                       }
+                   ]
+               }
+           ]
+       },
+       {
+           "nombre": "CONDICIONES DE ALMACENAMIENTO RESPEL",
+           "se_cuenta_en_puntaje": true,
+           "color": "#FF733A",
+           "subgrupos": [
+               {
+                   "nombre": "Área específica para el almacenamiento de Identificación de Residuos Peligrosos-RESPEL",
+                   "preguntas": [
+                       {
+                           "texto": "Se cuenta con área específica para el almacenamiento",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Se almacenan los RESPEL en sitios o lugares especiales acorde con su clase y categoría de peligro?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Cuenta con una estiba o sistema de conteción en caso de derrames de los residuos peligrosos?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "N/A",
+                                   "value": 0,
+                                   "valePromedio": false,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Los envases que contienen  RESPEL se encuentran :",
+                   "preguntas": [
+                       {
+                           "texto": "Limpios (sin residuos en el exterior)",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "En buen estado",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               },
+               {
+                   "nombre": "Identificación de RESPEL",
+                   "preguntas": [
+                       {
+                           "texto": "Envases con tapas y cerrados, destinados para tal uso",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "¿Los RESPEL se encuentran debidamente identificados y con su respectiva etiqueta?",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       },
+                       {
+                           "texto": "Se cuentan con las fichas de datos de seguridad de los RESPEL almacenados en un lugar accesible",
+                           "tipo": "RADIOSELECT",
+                           "respuestas": [
+                               {
+                                   "text": "Si",
+                                   "value": 1,
+                                   "valePromedio": true,
+                                   "contable": true
+                               },
+                               {
+                                   "text": "No",
+                                   "value": 0,
+                                   "valePromedio": true,
+                                   "contable": true
+                               }
+                           ],
+                           "obligatoria": true
+                       }
+                   ]
+               }
+           ]
+       },
+       {
+           "nombre": "INDICADORES",
+           "se_cuenta_en_puntaje": false,
+           "color": "#FAA232",
+           "subgrupos": [
+               {
+                   "nombre": "Indicadores",
+                   "preguntas": [
+                       {
+                           "texto": "NÚMERO DE ENVASES  Y EMPAQUES ETIQUETADO CON SISTEMA GLOBALMENTE ARMONIZADO, EN EL LUGAR DONDE SE ESTÁ HACIENDO LA EVALUACIÓN",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "CANTIDAD TOTAL EN NÚMERO DE ENVASES Y EMPAQUES DE SUSTANCIAS QUÍMICAS EN TODO LUGAR DONDE SE ESTA HACIENDO LA EVALUACIÓN.",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "CUANTAS FICHAS DE DATOS DE SEGURIDAD BAJO SISTEMA GLOBALMENTE ARMONIZADO DE LAS SUSTANCIAS QUÍMICAS SE TIENE? (Solo se tienen en cuenta las que estén con un periodo de revisión inferior a 5 años)",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "¿CUANTAS FICHAS DE DATOS DE SEGURIDAD SE TIENEN?",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "QUÉ CANTIDAD EN NÚMERO DE BOLSAS Y/O EMPAQUES DE RESIDUOS PELIGROSOS SE ENCUENTRAN ROTULADO ",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       },
+                       {
+                           "texto": "QUÉ CANTIDAD EN NÚMERO DE BOLSAS Y/O EMPAQUES DE RESIDUOS PELIGROSOS SE ENCUENTRAN ALMACENADOS EN EL MOMENTO DE LA CALIFICACIÓN",
+                           "tipo": "TEXT",
+                           "tipoTexto": "number",
+                           "placeHolder": "",
+                           "obligatoria": true,
+                           "able": true,
+                           "contable": false
+                       }
+                   ]
+               }
+           ]
+       }
+   ]
+}

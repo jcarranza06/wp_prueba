@@ -1,0 +1,2083 @@
+@font-face {  font-family: 'Ancizar sans';  font-weight: bold;  font-style: italic;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold_italic-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar sans';  font-weight: bold;  font-style: normal;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_bold-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar sans';  font-weight: normal;  font-style: italic;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_italic-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar sans';  font-weight: normal;  font-style: normal;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarsans_regular-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar serif';  font-weight: bold;  font-style: italic;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold_italic-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar serif';  font-weight: bold;  font-style: normal;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_bold-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar serif';  font-weight: normal;  font-style: italic;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_italic-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+@font-face {  font-family: 'Ancizar serif';  font-weight: normal;  font-style: normal;  src: url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.eot"), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.eot?#iefix") format('embedded-opentype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.woff") format('woff'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.ttf") format('truetype'), url("https://unal.edu.co/fileadmin/templates/fonts/ancizarserif_regular-webfont.svg#ancizar_sansbold_italic") format('svg');}
+
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.7gJGLZs59N_1t27B7fuBpAHaEo?pid=ImgDet&rs=1');
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ancizar serif", "MS Serif", "New York", serif;
+}
+
+
+a {
+  color: #94b43b;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #333333;
+}
+
+
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -moz-box-flex: 1;
+  -moz-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  min-height: 30em;
+}
+
+
+body>footer:before {
+  content: " ";
+  display: table;
+}
+
+body>footer:after {
+  clear: both;
+}
+
+
+blockquote, div.indent {
+  margin: 1em 1.2em;
+}
+
+
+.align-center {
+  text-align: center;
+}
+
+
+.align-justify {
+  text-align: justify;
+}
+
+
+.align-left {
+  text-align: left;
+}
+
+
+.align-right {
+  text-align: right;
+}
+
+
+.no-padding {
+  padding: 0;
+}
+
+
+ol {
+  list-style: decimal outside none;
+}
+
+
+li a {
+  font-size: 1rem;
+}
+
+
+ul, ol {
+  margin-left: 1.2em;
+}
+
+
+#services {
+  background: #333333;
+  position: fixed;
+  right: -800px;
+  left: auto;
+  top: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  z-index: 20000;
+}
+
+#services.active {
+  right: 0;
+}
+
+#services .navbar-default .navbar-nav > li > a:hover, #services .navbar-default .navbar-nav > li > a:focus {
+  background-color: yellow;
+  color: pink;
+}
+
+#services ul {
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0 10px;
+}
+#services ul li {
+  border-bottom: 1px solid #222222;
+  border-top: 1px solid #444444;
+  width: 240px;
+  padding: 10px 0;
+  height: 52px;
+}
+#services ul li:hover {
+  background: #444444;
+}
+#services ul li:first-child {
+  border-top: none;
+}
+#services ul li:last-child {
+  border-bottom: none;
+}
+#services ul li a {
+  color: white;
+  font-size: 0.9em;
+  line-height: 32px;
+  white-space: nowrap;
+  display: inline;
+  background: transparent;
+  padding: 0;
+}
+#services ul li a img {
+  display: block;
+  float: left;
+  height: 32px;
+  margin: 0 5px;
+  width: 32px;
+}
+
+#services .indicator {
+  background-color: #94b43b;
+  background-image: url(../images/backServices.png);
+  background-position: 0 0;
+  cursor: pointer;
+  height: 126px;
+  left: -34px;
+  position: absolute;
+  top: 150px;		
+  width: 34px;
+}
+#services .indicator:hover {
+  background-position: 0 -127px;
+}
+#services .indicator.active {
+  background-position: -35px 0;
+}
+#services .indicator.active:hover {
+  background-position: -35px -127px;
+}
+
+
+ul.dropdown-menu {
+  min-width: 54px;
+  background: #333333;
+  border-color: #222222;
+  padding: 0;
+}
+
+ul.dropdown-menu a {
+  color: white;
+  padding: 3px 10px;
+}
+ul.dropdown-menu a:hover, ul.dropdown-menu a:active, ul.dropdown-menu a:focus {
+  background: #4b4b4b;
+  color: white;
+}
+
+
+#unalTop {
+  position: relative;
+  z-index: 3;
+}
+
+#unalTop .logo {
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
+  background: no-repeat url(../images/sealBck.png);
+  float: left;
+  height: 135px;
+  width: 234px;
+  margin-left: 10px;
+  position: absolute;
+  text-align: center;
+}
+#unalTop .logo img, #unalTop .logo svg {
+  -webkit-transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+#unalTop .btn-group {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#unalTop .btn-group .btn {
+  background: transparent;
+  border: none;
+  color: white;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-transform: uppercase;
+  font-size: 1.125em;
+}
+#unalTop .btn-group .btn .caret {
+  border-top-color: #94b43b;
+  margin-left: 6px;
+}
+#unalTop .btn-group:hover, #unalTop .btn-group.open {
+  background-color: #666666;
+  border-color: #333333;
+}
+
+#unalTop .seal {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  z-index: 2;
+}
+
+#unalTop .firstMenu {
+  background: #666666;
+  height: 30px;
+}
+#unalTop .firstMenu .navbar-toggle {
+  margin-top: 11px;
+  margin-right: 11px;
+}
+#unalTop .firstMenu .navbar-toggle .icon-bar {
+  background: white;
+}
+#unalTop .firstMenu .languageMenu {
+  float: right;
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+#unalTop .firstMenu .languageMenu:hover, #unalTop .firstMenu .languageMenu.open {
+  background-color: transparent;
+  border-color: transparent;
+}
+#unalTop .firstMenu .languageMenu .btn {
+  padding: 5px 0.8em 2px;
+}
+#unalTop .firstMenu .navbar-default {
+  background: transparent;
+  float: right;
+}
+#unalTop .firstMenu .navbar-default nav {
+  padding: 0;
+}
+#unalTop .firstMenu .navbar-default nav li {
+  border-right: 1px solid #3d3d3d;
+  height: 30px;
+  padding-top: 6px;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
+}
+#unalTop .firstMenu .navbar-default nav li .dropdown-menu {
+  width: 14em;
+}
+#unalTop .firstMenu .navbar-default nav li:first-child {
+  border-left: 1px solid #333333;
+}
+#unalTop .firstMenu .navbar-default nav li a {
+  color: white;
+  text-shadow: none;
+  background: none;
+  display: inline;
+}
+#unalTop .firstMenu .navbar-default nav li a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+#unalTop .firstMenu .navbar-default nav li.active>a {
+  color: black;
+}
+#unalTop .firstMenu .navbar-default nav li.item_Aspirantes:hover, #unalTop .firstMenu .navbar-default nav li.item_Aspirantes.active, #unalTop .firstMenu .navbar-default nav li.item_Aspirantes.active:hover {
+  background: #ffdd00;
+  border-right: 1px solid #998400 !important;
+}
+#unalTop .firstMenu .navbar-default nav li.item_Estudiantes:hover, #unalTop .firstMenu .navbar-default nav li.item_Estudiantes.active, #unalTop .firstMenu .navbar-default nav li.item_Estudiantes.active:hover {
+  background: #ffb600;
+  border-right: 1px solid #996d00 !important;
+}
+#unalTop .firstMenu .navbar-default nav li.item_Egresados:hover, #unalTop .firstMenu .navbar-default nav li.item_Egresados.active, #unalTop .firstMenu .navbar-default nav li.item_Egresados.active:hover {
+  background: #51b8be;
+  border-right: 1px solid #306e71 !important;
+}
+#unalTop .firstMenu .navbar-default nav li.item_Docentes:hover, #unalTop .firstMenu .navbar-default nav li.item_Docentes.active, #unalTop .firstMenu .navbar-default nav li.item_Docentes.active:hover {
+  background: #008c95;
+  border-right: 1px solid #005459 !important;
+}
+#unalTop .firstMenu .navbar-default nav li.item_Administrativos:hover, #unalTop .firstMenu .navbar-default nav li.item_Administrativos.active, #unalTop .firstMenu .navbar-default nav li.item_Administrativos.active:hover {
+  background: #ff3d30;
+  border-right: 1px solid #99241d !important;
+}
+#unalTop .firstMenu ul.socialLinks {
+  float: right;
+  margin: 0 5px 0 20px;
+  padding: 0;
+}
+#unalTop .firstMenu ul.socialLinks li {
+  float: left;
+  margin: 5px 2px;
+  padding: 0;
+}
+#unalTop .firstMenu ul.socialLinks li a {
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+#unalTop .firstMenu ul.socialLinks li a.twitter, #unalTop .firstMenu ul.socialLinks li a.twitter:hover, #unalTop .firstMenu ul.socialLinks li a.facebook, #unalTop .firstMenu ul.socialLinks li a.facebook:hover, #unalTop .firstMenu ul.socialLinks li a.youtube, #unalTop .firstMenu ul.socialLinks li a.youtube:hover, #unalTop .firstMenu ul.socialLinks li a.flickr, #unalTop .firstMenu ul.socialLinks li a.flickr:hover, #unalTop .firstMenu ul.socialLinks li a.rss, #unalTop .firstMenu ul.socialLinks li a.rss:hover, #unalTop .firstMenu ul.socialLinks li a.blogger, #unalTop .firstMenu ul.socialLinks li a.blogger:hover, #unalTop .firstMenu ul.socialLinks li a.email, #unalTop .firstMenu ul.socialLinks li a.email:hover {
+  background: no-repeat 0 0 url(../images/icnSocial.png);
+}
+#unalTop .firstMenu ul.socialLinks li a.twitter:hover, #unalTop .firstMenu ul.socialLinks li a.facebook, #unalTop .firstMenu ul.socialLinks li a.facebook:hover, #unalTop .firstMenu ul.socialLinks li a.youtube, #unalTop .firstMenu ul.socialLinks li a.youtube:hover, #unalTop .firstMenu ul.socialLinks li a.flickr, #unalTop .firstMenu ul.socialLinks li a.flickr:hover, #unalTop .firstMenu ul.socialLinks li a.rss, #unalTop .firstMenu ul.socialLinks li a.rss:hover, #unalTop .firstMenu ul.socialLinks li a.blogger, #unalTop .firstMenu ul.socialLinks li a.blogger:hover, #unalTop .firstMenu ul.socialLinks li a.email, #unalTop .firstMenu ul.socialLinks li a.email:hover {
+  background-position: 0 -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.facebook {
+  background-position: -21px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.facebook:hover {
+  background-position: -21px -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.youtube {
+  background-position: -84px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.youtube:hover {
+  background-position: -84px -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.flickr {
+  background-position: -42px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.flickr:hover {
+  background-position: -42px -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.rss {
+  background-position: -126px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.rss:hover {
+  background-position: -126px -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.blogger {
+  background-position: -63px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.blogger:hover {
+  background-position: -63px -21px;
+}
+#unalTop .firstMenu ul.socialLinks li a.email {
+  background-position: -105px 0;
+}
+#unalTop .firstMenu ul.socialLinks li a.email:hover {
+  background-position: -105px -21px;
+}
+
+#unalTop .navigation {
+  background: url(../images/navigationBack.png);
+  color: white;
+  padding: 1.3em 0 1em 0;
+}
+#unalTop .navigation .site-url {
+  background: no-repeat 0 0 url(../images/locDot.png);
+  clear: both;
+  float: left;
+  font-size: 1.72em;
+  height: 17px;
+  line-height: 18px;
+  margin: 12px 10px 10px 250px;
+  padding: 0 0 0 20px;
+}
+#unalTop .navigation .site-url a {
+  color: white;
+}
+#unalTop .navigation .buscador {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: none;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+  width: 200px;
+  position: absolute;
+  right: 85px;
+  top: 36px;
+  height: 30px;
+}
+#unalTop .navigation .buscador .gscb_a {
+  line-height: 20px;
+}
+#unalTop .navigation .buscador .gsc-search-box .gsc-input>input:hover, #unalTop .navigation .buscador .gsc-input-box-hover {
+  border: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-input {
+  background-color: #777777;
+  background-image: none !important;
+  width: 100%;
+  padding: 0;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-input input {
+  background: none;
+  color: white;
+  display: inline;
+  font-size: 1.2em;
+  width: 150px !important;
+  color: #000;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-input td.gsib_b {
+  display: none;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-search-box {
+  height: 30px;
+  margin: 0;
+  position: relative;
+}
+#unalTop .navigation .buscador .gsc-input-box-focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+#unalTop .navigation .buscador .gsc-search-button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background-color: #94b43b !important;
+  border: 0 none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+  float: right;
+  height: 30px;
+  padding: 0;
+  width: 30px;
+}
+#unalTop .navigation .buscador .gsc-search-button input.gsc-search-button {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+}
+#unalTop .navigation .buscador .gsc-input-box {
+  background: #777777;
+  border: none;
+  color: white;
+  padding: 0;
+}
+#unalTop .navigation .mainMenu {
+  clear: both;
+  margin: 0 0 0 240px;
+}
+#unalTop .navigation .mainMenu .btn-group:last-child {
+  float: right;
+  margin-right: 85px;
+}
+#unalTop .navigation .mainMenu .btn-group:last-child .caret {
+  border-top-color: #94b43b !important;
+}
+
+
+main .breadcrumb-class {
+  border-bottom: 1px dotted #646464;
+  color: #323232;
+  line-height: 30px;
+  margin: 50px 0 0;
+}
+main .breadcrumb-class span, main .breadcrumb-class a {
+  margin: 0 0.3em;
+  font-weight: bold;
+}
+main .breadcrumb-class a {
+  color: #94b43b;
+  font-weight: normal;
+}
+main .breadcrumb-class a:hover {
+  color: #333333;
+}
+
+main.detalle {
+  margin: 0 10% 50px 10%;
+}
+
+
+footer {
+  height: auto;
+  background: #666666;
+  font-size: 0.9em;
+  color: #dddddd;
+  padding: 15px 0 25px 0;
+}
+
+footer div.footer-info p {
+  display: inline-block;
+  padding: 0;
+}
+footer div.footer-info p.contacto, footer div.footer-info body footer div.footer-info p.derechos, body footer div.footer-info footer div.footer-info p.derechos {
+  padding-left: 20px;
+  border-left: solid 1px #555555;
+}
+footer div.footer-info p.derechos {
+  text-align: right;
+  padding-right: 20px;
+  border-right: solid 1px #555555;
+}
+
+footer nav {
+  display: block;
+}
+footer nav a {
+  display: inline-block;
+  width: 49%;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #eeeeee;
+  text-decoration: underline;
+}
+
+footer .logos a {
+  text-align: center;
+  padding: 0;
+}
+footer .logos a img {
+  max-width: 100%;
+  max-height: 37px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+.oldie {
+  display: block;
+}
+
+.oldie body {
+  font-size: 12px;
+}
+
+.oldie #unalTop .logo img {
+  height: auto !important;
+}
+.oldie #unalTop .mainMenu .dropdown-menu li a {
+  display: inline;
+}
+.oldie #unalTop .mainMenu .dropdown-menu li a:hover {
+  background-color: #4b4b4b;
+}
+.oldie #unalTop .firstMenu .navbar-default nav li a {
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+
+.oldie #services {
+  width: 262px;
+}
+.oldie #services ul li a {
+  font-size: 0.8em;
+}
+
+.oldie footer {
+  display: table;
+}
+.oldie footer .gobiernoLinea {
+  margin: 10px auto 20px;
+}
+.oldie footer .gobiernoLinea a {
+  margin-top: 4px;
+}
+.oldie footer .footer-info {
+  margin: 10px auto 20px;
+}
+.oldie footer .footer-info p {
+  line-height: 15px;
+}
+.oldie footer .logos {
+  margin: 10px auto 20px;
+}
+
+/* Cambios Juan Carlos */
+.menu-item-has-children.selected .dropdown-menu {
+  display: block;
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #unalTop .seal {
+  right: 8px;
+}
+#unalTop .seal img {
+  height: 50px;
+  width: auto;
+  top: 5px;
+  position: relative;
+}
+
+#unalTop .navigation .buscador {
+  right: 70px;
+}
+#unalTop .navigation .mainMenu .btn-group .btn {
+  padding: 6px;
+  font-size: 1.1em;
+}
+#unalTop .navigation .mainMenu .btn-group:last-child {
+  margin-right: 70px;
+}
+
+
+main .breadcrumb-class {
+  margin-top: 20px;
+}
+
+
+footer {
+  font-size: 0.8em;
+  line-height: 1.1em;
+  padding-bottom: 15px;
+}
+
+footer div.footer-info p.contacto {
+  padding-left: 10px;
+}
+footer div.footer-info p.derechos {
+  padding-right: 10px;
+}
+
+footer .logos .imgAgencia {
+  margin-bottom: 6px;
+}
+footer .logos a img {
+  margin: auto;
+  width: auto;
+  max-height: 27px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #unalTop .logo {
+  width: 195px;
+  height: 114px;
+  margin-left: 0;
+  background-size: cover;
+  background-position: center bottom;
+}
+#unalTop .logo img {
+  margin: 12px auto;
+  height: 46px;
+  width: auto;
+}
+
+#unalTop .firstMenu .languageMenu {
+  margin: 0;
+}
+#unalTop .firstMenu ul.socialLinks {
+  margin: 0 5px;
+}
+#menu-menu-principal > li > a{
+	font-size: 11px !important;
+}
+#unalTop .firstMenu .navbar-default nav li a {
+  padding: 4px 10px 5px 10px;
+  font-size: 12.5px;
+}
+
+#unalTop .navigation {
+  height: 70px !important;
+  padding: 10px 0 0 0;
+}
+#unalTop .navigation .buscador {
+  right: 60px;
+  width: 166px;
+  top: 42px;
+  height: 22px;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-input input {
+  font-size: 1em;
+}
+#unalTop .navigation .buscador .gsc-control-searchbox-only .gsc-search-box {
+  height: 22px;
+}
+#unalTop .navigation .buscador .gsc-search-button {
+  height: 22px;
+  width: 22px;
+}
+#unalTop .navigation .buscador .gsc-search-button input.gsc-search-button {
+  height: 22px;
+  width: 22px;
+}
+#unalTop .navigation .site-url {
+  font-size: 18px;
+  margin: 6px 0 0 200px;
+}
+#unalTop .navigation .mainMenu {
+  margin-left: 200px;
+}
+#unalTop .navigation .mainMenu .btn {
+  font-size: 0.9em;
+  padding: 7px 4px 0;
+}
+#unalTop .navigation .mainMenu .btn-group:last-child {
+  margin-right: 60px;
+}
+
+#unalTop .seal {
+  right: 5px;
+}
+#unalTop .seal img {
+  width: 45px;
+  height: 45px;
+  margin-top: 5px;
+}
+
+
+main.detalle {
+  margin: 0 5% 50px;
+}
+
+main .breadcrumb-class {
+  margin-top: 15px;
+}
+
+
+body footer .gobiernoLinea a {
+  width: 100%;
+}
+body footer .footer-info {
+  border-left: solid 1px #555555;
+  border-right: solid 1px #555555;
+}
+body footer .footer-info p.contacto {
+  border-left: none;
+}
+body footer .footer-info p.derechos {
+  text-align: left;
+  border-right: none;
+  padding-left: 20px;
+}
+}
+
+
+@media screen and (max-width: 480px) {
+  body #unalTop .seal {
+  display: none;
+}
+body #unalTop .firstMenu .navbar-toggle {
+  margin-right: 11px;
+}
+
+body main.detalle {
+  margin: 0 2% 50px;
+}
+
+body footer {
+  padding: 15px 0 25px;
+}
+body footer .gobiernoLinea a {
+  width: 100%;
+}
+body footer .gobiernoLinea:nth-child(2) {
+  text-align: right;
+}
+body footer div.footer-info {
+  padding: 10px 15px;
+  margin: 10px auto;
+  font-size: 0.9em;
+  border-top: solid 1px #555555;
+  border-bottom: solid 1px #555555;
+}
+body footer div.footer-info p.contacto, body footer div.footer-info p.derechos {
+  border: none;
+  padding: 0;
+  width: 49%;
+}
+body footer div.footer-info p.derechos {
+  text-align: right;
+  border-left: none;
+}
+body footer .logos {
+  margin-top: 0;
+}
+
+
+.col-xxs-6 {
+  width: 50%;
+}
+
+
+.col-xxs-12 {
+  width: 100%;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+  #services, #profiles {
+  margin-left: 1.2em;
+  height: auto !important;
+  width: 90%;
+  position: absolute;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+#services ul, #profiles ul {
+  height: auto !important;
+  width: 100%;
+  background: #333333;
+  border-color: #222222;
+  padding: 0;
+}
+#services ul li, #profiles ul li {
+  width: 100%;
+  border: none;
+}
+#services ul li img, #profiles ul li img {
+  display: none;
+}
+#services ul li a, #profiles ul li a {
+  line-height: inherit;
+  color: white;
+  padding: 3px 10px;
+  font-size: 1em;
+  line-height: 1.429em;
+}
+
+
+#unalTop .logo {
+  background: none;
+  width: 103px;
+  margin-left: 0px;
+  height: 54px;
+}
+#unalTop .logo a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+#unalTop .logo a svg, #unalTop .logo a img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#unalTop .seal {
+  top: 10px;
+  right: 60px;
+}
+#unalTop .seal img {
+  width: 35px;
+  height: 35px;
+}
+
+#unalTop .firstMenu {
+  height: 54px;
+}
+
+#unalTop .navigation {
+  height: auto;
+  position: absolute;
+  max-height: 5000px;
+  width: 100%;
+  background: url(../images/navigationBack_small.png);
+}
+#unalTop .navigation:last-child {
+  padding-bottom: 15px;
+}
+#unalTop .navigation.collapse.in {
+  overflow: visible;
+}
+#unalTop .navigation .site-url {
+  font-size: 1.1em;
+  margin: 10px 0 5px 14px;
+}
+#unalTop .navigation .buscador {
+  position: relative;
+  top: 0;
+  left: 0;
+  clear: both;
+  width: 100%;
+}
+#unalTop .navigation .mainMenu {
+  margin: 0;
+}
+#unalTop .navigation .mainMenu .btn-group:last-child {
+  margin: 0;
+  float: none;
+}
+#unalTop .navigation .mainMenu .btn-group .dropdown-menu {
+  clear: both;
+  margin-left: 1.2em;
+  width: 90%;
+}
+#unalTop .navigation .btn-group {
+  width: 100%;
+}
+
+
+main.detalle {
+  margin: 0 5% 50px;
+}
+
+main .breadcrumb-class {
+  margin-top: 10px;
+}
+
+
+footer .gobiernoLinea {
+  text-align: left;
+}
+footer .gobiernoLinea a {
+  width: 100%;
+}
+
+footer div.footer-info p.derechos {
+  border-right: 0;
+  border-left: solid 1px #555555;
+  padding-right: 0;
+  padding-left: 20px;
+  text-align: left;
+}
+
+footer .logos {
+  margin-top: 10px;
+}
+}
+
+
+@media screen and (min-width: 768px) {
+  #services {
+  display: block;
+  border: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+#services ul {
+  position: relative;
+  display: block;
+  background: transparent;
+  top: 0;
+}
+#services ul li a {
+  clear: inherit;
+}
+
+
+#unalTop .firstMenu #bs-navbar {
+  display: none !important;
+}
+#unalTop .firstMenu #profiles ul.dropdown-menu {
+  display: block;
+  border: none;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  -ms-border-radius: none;
+  -o-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+}
+}
+
+body.page.page-id-6221 {
+    background-image: url(https://ogabogota.unal.edu.co/wp-content/uploads/2022/12/home-diciembre-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.page.page-id-6221 main.detalle{
+  margin: 0;
+}
+
+.page-id-6221 .breadcrumb-class{
+  display: none;
+}
+
+.links-de-interes .links{
+  padding-left: 40px;
+  margin-top: 30px;
+  display: inline-grid; 
+}
+.links-de-interes .links a {
+    background-color: #019886;
+    border-radius: 5px;   
+    box-shadow: 5px -5px #123d47; 
+    color: #fff;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+.links-de-interes .links a:hover{
+  background-color: #b1c406;
+  box-shadow: 5px -5px #113d46;;
+  color: #ffffff;  
+  transition-duration: 500ms;
+}
+.links-de-interes .links a svg{
+    height: 30px;
+    fill: #fff;
+    margin-bottom: -15px;
+    margin-right: 10px;
+
+}
+.links-de-interes .links a:hover svg{
+  fill: #ffffff;
+  transition-duration: 500ms;
+}
+
+.spacehome{
+  margin-top: 30vh;
+}
+.page-id-6221 .elementor-widget-video {
+    padding-right: 40px;
+}
+.video-institucional .video {
+    border: solid 5px #000;
+    border-radius: 5px;
+}
+.page-id-6221 #video-home-box {
+    padding-top: 50px;
+}
+.video-institucional {         
+    max-width: 580px;
+    background: #000; 
+    width: 100%;
+    margin: auto;
+    margin-right: 5px;
+}
+.video-institucional .box-title {
+    background-color: #b0c613;
+    border-radius: 5px;
+    color: #123d47;
+    text-align: center;
+    padding: 15px 5px 10px 5px;
+}
+.video-institucional .box-title h4{
+  font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+@media (max-width: 1380px){
+  .page.page-id-6221 .links-de-interes {
+    margin-top: 20px;
+  }  
+}
+@media (max-width: 767px){
+  .page.page-id-6221 .links-de-interes {
+    margin-top: 70px;
+  }  
+}
+/**************** Single page fill Width********************/
+.page-template-full-width .detalle{
+  margin: 0;
+}
+.head .backimg {
+    min-height: 300px;    
+    width: 100%;
+}
+.head .head-container{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+.head h1.the-title{
+  color: #fff;  
+  font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.page-template-full-width .head .breadcrumb-class{
+  color: #fff;
+  font-weight: 300;
+  border-bottom: none;
+  margin: 30px 0 0;  
+}
+.page-template-full-width .detalle .content{
+  margin: 0px 0 45px 0;
+}
+.page-template-full-width h2{
+    font-weight: 700;
+    color: #123d47;
+}
+.page-template-full-width p{
+  text-align: justify;
+}
+.page-template-full-width .detalle .content ul{
+  text-align: justify;
+  list-style: none;
+}
+
+.page-template-full-width .detalle .content ul li{
+  list-style-type: none !important;
+  margin: 5px 0;
+}
+.page-template-full-width .detalle .content ul li::before{
+  content: url('https://ogabogota.unal.edu.co/wp-content/themes/oficinagestion/css/images/bullet.png');
+  display: inline-block; 
+  width: 1em;
+  margin-left: -30px;
+  margin-right: 10px;
+}
+/**************** Boletines Ambientales ********************/
+.page-template .filters{
+  display: inline-block;
+  width: 100%;
+}
+.page-template .filters .filter-year, .page-template .filters .filter-facultades{
+  float: left;
+  margin: 0px 10px 0 20px;
+}
+.page-template .filters .filter-year select, .page-template .filters .filter-facultades select{
+  border: 1px solid #fff;
+  padding: 8px 10px;
+}
+.page-template .filters .filter-month{
+  float: left;
+  margin: 0 10px 0 0;
+}
+.page-template .filters .filter-month select{
+  border: 1px solid #fff;
+  padding: 8px 10px;
+}
+.page-template .filters button{
+  background: #019886;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin: -2px 0 0 0;
+  padding: 15px 20px;  
+}
+.page-template .filters button:hover{
+  background: #94b43b;
+}
+.page-template-boletines .detalle .content{
+  margin: 0 10% 50px 10%;
+}
+.page-template-boletines .detalle .content .boletines{
+  display: inline-block;
+}
+.page-template-boletines .detalle .content .boletin-item{
+  display: block;
+  float: left;
+  margin: 10px 10px;
+  text-align: center;
+  width: 300px;
+}
+.page-template-boletines .detalle .content .boletin-item a{
+  background: none;
+  color: #333;
+  width: unset;
+}
+.page-template-boletines .detalle .content .boletin-item span.title{
+  display: block;
+  margin: 10px;
+}
+.page-template-boletines .detalle .content .boletin-item a:hover{
+  text-decoration: none;
+}
+.page-template-boletines .detalle .content .boletines li.boletin-item:nth-child(n+7){
+  display: none;
+}
+/**************** Right Sidebar ********************/
+.page-template-boletines .detalle,
+.page-template-right-side-bar .detalle, 
+.page-template-calidad-aire-side-bar .detalle,
+.page-template-atmosfera-side-bar .detalle, 
+.page-template-predios-side-bar .detalle, 
+.page-template-flora-side-bar .detalle, 
+.page-template-hidrologia-side-bar .detalle, 
+.page-template-cobertura-suelo-side-bar .detalle,
+.page-template-ruido-side-bar .detalle,
+.page-template-geosfera-side-bar .detalle,
+.page-template-olores-side-bar .detalle,
+.page-template-biosfera-side-bar .detalle,
+.page-template-residuos-side-bar .detalle,
+.page-template-geovisores-side-bar .detalle,
+.page-template-plagas-side-bar .detalle,
+.page-template-agua-side-bar .detalle,
+.page-template-bases-de-datos-side-bar .detalle,
+.page-template-energia-side-bar .detalle,
+.page-template-huella-side-bar .detalle,
+.page-template-pgirs-side-bar .detalle,
+.page-template-pmas-side-bar .detalle,
+.page-template-riesgos-ambientales-side-bar .detalle,
+.page-template-cultura-ambiental-side-bar .detalle,
+.page-template-greenmetric-side-bar .detalle,
+.page-template-pmas-facultad-enfermeria-side-bar .detalle,
+.page-template-pmas-facultad-cagrarias-side-bar .detalle,
+.page-template-pmas-facultad-ceconomicas-side-bar .detalle,
+.page-template-pmas-facultad-veterinaria-side-bar .detalle, 
+.page-template-pmas-facultad-ingenieria-side-bar .detalle,
+.page-template-pmas-facultad-chumanas-side-bar .detalle,
+.page-template-pmas-facultad-medicina-side-bar .detalle,
+.page-template-pmas-facultad-odontologia-side-bar .detalle,
+.page-template-pmas-facultad-artes-side-bar .detalle,
+.page-template-pmas-facultad-ciencias-side-bar .detalle,
+.page-template-pmas-facultad-derecho-side-bar .detalle,
+.page-template-aspectos-e-impactos-ambientales-side-bar .detalle,
+.page-template-pmas-pctacopio-side-bar .detalle,
+.page-template-planes-de-manejo .detalle,
+.page-template-residuos-peligrosos .detalle,
+.page-template-residuos-de-construccion-y-demolicion .detalle,
+.page-template-plan-de-manejo .detalle,
+.page-template-residuos-no-peligrosos .detalle
+{
+  margin: 0;
+}
+.page-template-boletines .head .breadcrumb-class,
+.page-template-right-side-bar .head .breadcrumb-class, 
+.page-template-calidad-aire-side-bar .head .breadcrumb-class,
+.page-template-atmosfera-side-bar .head .breadcrumb-class, 
+.page-template-predios-side-bar .head .breadcrumb-class,
+.page-template-flora-side-bar .head .breadcrumb-class, 
+.page-template-hidrologia-side-bar .head .breadcrumb-class, 
+.page-template-cobertura-suelo-side-bar .head .breadcrumb-class,
+.page-template-ruido-side-bar .head .breadcrumb-class,
+.page-template-geosfera-side-bar .head .breadcrumb-class,
+.page-template-olores-side-bar .head .breadcrumb-class,
+.page-template-biosfera-side-bar .head .breadcrumb-class,
+.page-template-residuos-side-bar .head .breadcrumb-class,
+.page-template-geovisores-side-bar .head .breadcrumb-class,
+.page-template-plagas-side-bar .head .breadcrumb-class,
+.page-template-agua-side-bar .head .breadcrumb-class,
+.page-template-bases-de-datos-side-bar .head .breadcrumb-class,
+.page-template-energia-side-bar .head .breadcrumb-class,
+.page-template-huella-side-bar .head .breadcrumb-class,
+.page-template-pgirs-side-bar .head .breadcrumb-class,
+.page-template-pmas-side-bar .head .breadcrumb-class,
+.page-template-riesgos-ambientales-side-bar .head .breadcrumb-class,
+.page-template-cultura-ambiental-side-bar .head .breadcrumb-class,
+.page-template-greenmetric-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-enfermeria-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-cagrarias-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-ceconomicas-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-veterinaria-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-ingenieria-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-chumanas-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-medicina-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-odontologia-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-artes-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-ciencias-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-derecho-side-bar .head .breadcrumb-class,
+.page-template-aspectos-e-impactos-ambientales-side-bar .head .breadcrumb-class,
+.page-template-planes-de-manejo .head .breadcrumb-class,
+.page-template-plan-de-manejo .head .breadcrumb-class,
+.page-template-residuos-peligrosos .head .breadcrumb-class,
+.page-template-residuos-de-construccion-y-demolicion .head .breadcrumb-class,
+.page-template-residuos-no-peligrosos .head .breadcrumb-class,
+.page-template-pmas-pctacopio-side-bar .head .breadcrumb-class{
+  color: #fff;
+  font-weight: 300;
+  border-bottom: none;
+  margin: 30px 0 0;  
+}
+.page-template-right-side-bar .detalle .content{
+  margin: 0px 0 45px 0;
+  max-width: 1110px;
+  margin: auto;
+}
+.page-template-calidad-aire-side-bar .detalle .content, 
+.page-template-atmosfera-side-bar .detalle .content, 
+.page-template-predios-side-bar .detalle .content, 
+.page-template-flora-side-bar .detalle .content, 
+.page-template-hidrologia-side-bar .detalle .content, 
+.page-template-cobertura-suelo-side-bar .detalle .content,
+.page-template-ruido-side-bar .detalle .content,
+.page-template-geosfera-side-bar .detalle .content,
+.page-template-olores-side-bar .detalle .content,
+.page-template-biosfera-side-bar .detalle .content,
+.page-template-residuos-side-bar .detalle .content,
+.page-template-geovisores-side-bar .detalle .content,
+.page-template-plagas-side-bar .detalle .content,
+.page-template-agua-side-bar .detalle .content,
+.page-template-bases-de-datos-side-bar .detalle .content,
+.page-template-energia-side-bar .detalle .content,
+.page-template-huella-side-bar .detalle .content,
+.page-template-pgirs-side-bar .detalle .content,
+.page-template-pmas-side-bar .detalle .content,
+.page-template-riesgos-ambientales-side-bar .detalle .content,
+.page-template-cultura-ambiental-side-bar .detalle .content,
+.page-template-greenmetric-side-bar .head .breadcrumb-class,
+.page-template-greenmetric-side-bar .head .breadcrumb-class, 
+.page-template-pmas-facultad-enfermeria-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-cagrarias-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-ceconomicas-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-veterinaria-side-bar .head .breadcrumb-class, 
+.page-template-pmas-facultad-ingenieria-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-chumanas-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-medicina-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-odontologia-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-artes-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-ciencias-side-bar .head .breadcrumb-class,
+.page-template-pmas-facultad-derecho-side-bar .head .breadcrumb-class,
+.page-template-aspectos-e-impactos-ambientales-side-bar .head .breadcrumb-class,
+.page-template-planes-de-manejo .head .breadcrumb-class,
+.page-template-plan-de-manejo .head .breadcrumb-class,
+.page-template-residuos-peligrosos .head .breadcrumb-class,
+.page-template-residuos-de-construccion-y-demolicion .head .breadcrumb-class,
+.page-template-residuos-no-peligrosos .head .breadcrumb-class,
+.page-template-pmas-pctacopio-side-bar .head .breadcrumb-class{
+  margin: 0px 0 45px 0;
+  width: 100%;
+  margin: auto;
+}
+.page-template-boletines h2,
+.page-template-right-side-bar h2, 
+.page-template-calidad-aire-side-bar h2, 
+.page-template-atmosfera-side-bar h2,
+.page-template-predios-side-bar h2, 
+.page-template-flora-side-bar h2, 
+.page-template-hidrologia-side-bar h2, 
+.page-template-cobertura-suelo-side-bar h2,
+.page-template-ruido-side-bar h2,
+.page-template-geosfera-side-bar h2,
+.page-template-olores-side-bar h2,
+.page-template-biosfera-side-bar h2,
+.page-template-residuos-side-bar h2,
+.page-template-geovisores-side-bar h2,
+.page-template-plagas-side-bar h2,
+.page-template-agua-side-bar h2,
+.page-template-bases-de-datos-side-bar h2,
+.page-template-energia-side-bar h2,
+.page-template-huella-side-bar h2,
+.page-template-pgirs-side-bar h2,
+.page-template-pmas-side-bar h2,
+.page-template-riesgos-ambientales-side-bar h2,
+.page-template-cultura-ambiental-side-bar h2,
+.page-template-greenmetric-ambiental-side-bar h2,
+.page-template-pmas-facultad-enfermeria-side-bar h2,
+.page-template-pmas-facultad-cagrarias-side-bar h2,
+.page-template-pmas-facultad-ceconomicas-side-bar h2,
+.page-template-pmas-facultad-veterinaria-side-bar h2,
+.page-template-pmas-facultad-ingenieria-side-bar h2,
+.page-template-pmas-facultad-chumanas-side-bar h2,
+.page-template-pmas-facultad-medicina-side-bar h2,
+.page-template-pmas-facultad-odontologia-side-bar h2,
+.page-template-pmas-facultad-artes-side-bar h2,
+.page-template-pmas-facultad-ciencias-side-bar h2,
+.page-template-pmas-facultad-derecho-side-bar h2,
+.page-template-aspectos-e-impactos-ambientales-side-bar h2,
+.page-template-planes-de-manejo h2,
+.page-template-plan-de-manejo h2,
+.page-template-residuos-peligrosos h2,
+.page-template-residuos-de-construccion-y-demolicion h2,
+.page-template-residuos-no-peligrosos h2,
+.page-template-pmas-pctacopio-side-bar h2{
+    font-weight: 700;
+    color: #123d47;
+}
+.page-template-right-side-bar p, 
+.page-template-calidad-aire-side-bar p, 
+.page-template-atmosfera-side-bar p, 
+.page-template-predios-side-bar p, 
+.page-template-flora-side-bar p, 
+.page-template-hidrologia-side-bar p, 
+.page-template-cobertura-suelo-side-bar p,
+.page-template-ruido-side-bar p,
+.page-template-geosfera-side-bar p,
+.page-template-olores-side-bar p,
+.page-template-biosfera-side-bar p,
+.page-template-residuos-side-bar p,
+.page-template-geovisores-side-bar p,
+.page-template-plagas-side-bar p,
+.page-template-agua-side-bar p,
+.page-template-bases-de-datos-side-bar p,
+.page-template-energia-side-bar p,
+.page-template-huella-side-bar p,
+.page-template-pgirs-side-bar p,
+.page-template-pmas-side-bar p,
+.page-template-riesgos-ambientales-side-bar p,
+.page-template-cultura-ambiental-side-bar p,
+.page-template-greenmetric-side-bar p,
+.page-template-pmas-facultad-enfermeria-side-bar p,
+.page-template-pmas-facultad-cagrarias-side-bar p,
+.page-template-pmas-facultad-ceconomicas-side-bar p,
+.page-template-pmas-facultad-veterinaria-side-bar p, 
+.page-template-pmas-facultad-ingenieria-side-bar p,
+.page-template-pmas-facultad-chumanas-side-bar p,
+.page-template-pmas-facultad-medicina-side-bar p,
+.page-template-pmas-facultad-odontologia-side-bar p,
+.page-template-pmas-facultad-artes-side-bar p,
+.page-template-pmas-facultad-ciencias-side-bar p,
+.page-template-pmas-facultad-derecho-side-bar p,
+.page-template-aspectos-e-impactos-ambientales-side-bar p,
+.page-template-planes-de-manejo p,
+.page-template-plan-de-manejo p,
+.page-template-residuos-peligrosos p,
+.page-template-residuos-de-construccion-y-demolicion p,
+.page-template-residuos-no-peligrosos p,
+.page-template-pmas-pctacopio-side-bar p{
+  text-align: justify;
+}
+.page-template-calidad-aire-side-bar #sidebar-right{	
+  padding-left: 20px;
+}
+.page-template-predios-side-bar #sidebar-right a{
+	font-size: 13px;
+	padding: 5px 7px;
+}
+.page-template-calidad-aire-side-bar.page-id-6754 #sidebar-right .main-topic, 
+.page-template-atmosfera-side-bar.page-id-4126 #sidebar-right .main-topic, 
+.page-template-predios-side-bar.page-id-5935 #sidebar-right .main-topic, 
+.page-template-flora-side-bar.page-id-7294 #sidebar-right .main-topic, 
+.page-template-hidrologia-side-bar.page-id-7300 #sidebar-right .main-topic, 
+.page-template-cobertura-suelo-side-bar.page-id-5940 #sidebar-right .main-topic,
+.page-template-ruido-side-bar.page-id-4218 #sidebar-right .main-topic,
+.page-template-geosfera-side-bar.page-id-4153 #sidebar-right .main-topic,
+.page-template-olores-side-bar.page-id-6847 #sidebar-right .main-topic,
+.page-template-biosfera-side-bar.page-id-4143 #sidebar-right .main-topic,
+.page-template-residuos-side-bar.page-id-6837 #sidebar-right .main-topic,
+.page-template-geovisores-side-bar.page-id-3983 #sidebar-right .main-topic,
+.page-template-plagas-side-bar.page-id-6849 #sidebar-right .main-topic,
+.page-template-agua-side-bar.page-id-6840 #sidebar-right .main-topic,
+.page-template-bases-de-datos-side-bar.page-id-4320 #sidebar-right .main-topic,
+.page-template-energia-side-bar.page-id-6843 #sidebar-right .main-topic,
+.page-template-huella-side-bar.page-id-4102 #sidebar-right .main-topic,
+.page-template-pgirs-side-bar.page-id-5958 #sidebar-right .main-topic,
+.page-template-pmas-side-bar.page-id-5953 #sidebar-right .main-topic,
+.page-template-riesgos-ambientales-side-bar.page-id-4230 #sidebar-right .main-topic,
+.page-template-cultura-ambiental-side-bar.page-id-41 #sidebar-right .main-topic,
+.page-template-pmas-facultad-enfermeria-side-bar.page-id-12019 #sidebar-right .main-topic,
+.page-template-pmas-facultad-cagrarias-side-bar.page-id-12059 #sidebar-right .main-topic,
+.page-template-pmas-facultad-ceconomicas-side-bar.page-id-12141 #sidebar-right .main-topic,
+.page-template-pmas-facultad-veterinaria-side-bar.page-id-12182 #sidebar-right .main-topic, 
+.page-template-pmas-facultad-ingenieria-side-bar.page-id-12222 #sidebar-right .main-topic,
+.page-template-pmas-facultad-chumanas-side-bar.page-id-12262 #sidebar-right .main-topic,
+.page-template-pmas-facultad-medicina-side-bar.page-id-12813 #sidebar-right .main-topic,
+.page-template-pmas-facultad-odontologia-side-bar.page-id-12853 #sidebar-right .main-topic,
+.page-template-pmas-facultad-artes-side-bar.page-id-12893 #sidebar-right .main-topic,
+.page-template-pmas-facultad-ciencias-side-bar.page-id-12933 #sidebar-right .main-topic,
+.page-template-pmas-facultad-derecho-side-bar.page-id-12973 #sidebar-right .main-topic,
+.page-template-aspectos-e-impactos-ambientales-side-bar.page-id-14733 #sidebar-right .main-topic,
+.page-template-residuos-de-construccion-y-demolicion.page-id-15557 #sidebar-right .main-topic,
+.page-template-residuos-no-peligrosos.page-id-15540 #sidebar-right .main-topic,
+.page-template-pmas-pctacopio-side-bar.page-id-12311 #sidebar-right .main-topic  {
+  display: none;
+}
+
+.elementor-accordion .elementor-accordion-item .elementor-tab-title{
+	background: #019886;
+	color: #fff;
+	text-decoration: none;
+}
+.elementor-accordion .elementor-accordion-item .elementor-tab-title a:hover{
+	text-decoration: none;
+}
+/****first-row***/
+.page-template-calidad-aire-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),  
+.page-template-predios-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-flora-side-bar #content-details .elementor-row div.elementor-element:nth-child(1), 
+.page-template-hidrologia-side-bar #content-details .elementor-row div.elementor-element:nth-child(1), 
+.page-template-cobertura-suelo-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-ruido-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-geosfera-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-olores-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-biosfera-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-residuos-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-geovisores-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-plagas-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-agua-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-bases-de-datos-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-energia-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-huella-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pgirs-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-riesgos-ambientales-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-cultura-ambiental-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-atmosfera-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-enfermeria-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-cagrarias-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-ceconomicas-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-veterinaria-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-ingenieria-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-chumanas-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-medicina-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-odontologia-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-artes-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-ciencias-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-facultad-derecho-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-aspectos-e-impactos-ambientales-side-bar #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-residuos-peligrosos #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-residuos-de-construccion-y-demolicion #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-residuos-no-peligrosos #content-details .elementor-row div.elementor-element:nth-child(1),
+.page-template-pmas-pctacopio-side-bar #content-details .elementor-row div.elementor-element:nth-child(1){
+  padding: 0 10px;
+}
+
+#sidebar-right{
+  float: left;
+  margin-top: 40px;
+  max-width: 300px;
+  padding-left: 20px;
+  width: 25%;  
+}
+#sidebar-right h3{
+    background: #123d47;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#sidebar-right a{
+  	background: #019886;
+  	border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    margin: -5px 0;
+   	line-height: 19px;
+    display: block;
+    text-decoration: none;
+}
+#sidebar-right a:hover{
+  background: #94b43b;  
+}
+#content-details{
+  width: 75%;
+  float: left;
+}
+
+#content-details .elementor-section .elementor-container.elementor-column-gap-default{
+  margin-right: 0;
+}
+
+/**************************Singles pages********************/
+/*********404*********/
+.error404 .content{
+  text-align: center;
+}
+.error404 .content h1{  
+    font-size: 50px;
+    font-weight: 700;
+    color: #123d47;
+}
+.error404 .content p{
+  font-size: 28px;
+}
+.error404 .content a{
+    color: #fff;
+    background: #123d47;    
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 0 15px 0;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
+.error404 .content a:hover{
+  background: #b0c613;
+  transition-duration: 500ms;
+}
+.error404 .content #searchform{
+  margin: 20px 0 0 0;
+}
+.error404 .content #searchform input{
+    border: none;
+    border-radius: 5px;
+    height: 35px;    
+    margin-right: -3px;
+    width: 200px;    
+}
+.error404 .content #searchform input:focus{
+  border: solid 1px #b0c613;
+  outline: 1px #b0c613;
+}
+.error404 .content #searchform #searchsubmit{
+    background: #123d47;
+    color: #fff;    
+    margin: 0;
+    padding: 5px 10px;
+    width: unset;
+}
+/************estructura organizacional de  la sede ********/
+.page-id-6326 .source-image {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
+.page-id-6326 .estructura-normas{
+  background: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  margin: 15px 0px;
+  padding: 15px;    
+}
+.page-id-6326 .estructura-normas h3{
+  color: #019886;
+  font-size: 20px;
+  font-weight: 800;  
+  text-align: center;
+}
+.page-id-6326 .estructura-normas .btn-ver-ley{
+  text-align: center;
+  margin: 20px 0;
+}
+.page-id-6326 .estructura-normas .btn-ver-ley a{
+    color: #fff;
+    background: #019886;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 18px;
+    text-decoration: none;
+}
+.page-id-6326 .estructura-normas .btn-ver-ley a:hover{
+  background: #123d47;
+}
+/*********certificacion iso*********/
+.page-id-6379 .item-box h3 a{
+  font-weight: 700;
+}
+.page-id-6379 .item-box p{
+  text-align: left;
+}
+/*********reconcimientos*********/
+.page-id-6395 .awards{  
+  text-align: center;
+  margin-top: 25px;
+}
+.page-id-6395 .awards a{
+    background: #019886;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.page-id-6395 .awards a:hover{
+  background: #b0c613;
+}
+
+/*********equipo  de trabajo*********/
+.page-id-21.page-template-full-width .detalle .content ul li::before{
+  content: "";
+}
+.page-id-21 a.elementor-button,.page-id-5247 a.elementor-button, .page-id-5258 a.elementor-button,.page-id-5271 a.elementor-button,.page-id-5280 a.elementor-button,.page-id-5285 a.elementor-button,.page-id-5291 a.elementor-button,.page-id-5296 a.elementor-button,.page-id-5299 a.elementor-button{
+  background-color: #019886 !important;
+}
+/*********Rotulos y pendones*********/
+.page-id-11827 h2{
+  text-align: center;
+}
+.page-id-11827 #list-docs input{    
+  background-image: url(https://drive.google.com/uc?export=view&id=1-kwEWaQwg21n-rdOeOmft9j0c8tcwEYX);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  display: block;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 12px 20px 12px 40px;
+  width: 80%;
+}
+.page-id-11827 #list-docs ul.list, .page-id-11827 #list-pendon ul {
+  font-size: inherit;
+  margin: 0 0 25px 0;
+  list-style: none;
+}
+.page-id-11827 #list-docs ul li{
+  margin: 0;
+  list-style: none;
+  line-height: inherit;
+}
+.page-id-11827 #list-docs ul li::marker,.page-id-11827 #list-pendon ul li::marker{
+  color: transparent;
+}
+.page-id-11827 #list-docs ul li a, .page-id-11827 #list-pendon ul li a{
+  background: #019886;
+  background-image: url(https://ogabogota.unal.edu.co/wp-content/uploads/2021/06/pdf-white.png);
+  background-position: 6px 6px;
+  background-repeat: no-repeat;
+  border: 1px solid #ddd;
+  color: #fff;
+  font-size: 15px;
+  margin-top: -1px; 
+  padding: 12px 0px 12px 40px;
+  transition: unset;
+  width: 100%;
+}
+.page-id-11827 #list-docs ul li a:hover, .page-id-11827 #list-pendon ul li a:hover{
+  background: #b0c613;  
+  background-image: url(https://ogabogota.unal.edu.co/wp-content/uploads/2021/06/pdf-white.png);
+  background-position: 6px 6px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+/*************formulario***********/
+.with_frm_style .frm_message{
+  font-size: 16px;
+  background-color: #019886 !important;
+  color: #fff !important;
+}
+/***********vinculos de interes************/
+a.vinculos-de-interes-item {
+    background: #019886;
+    padding: 10px 0px 10px 21px;
+    display: block;
+    color: #fff;
+    line-height: 16px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a.vinculos-de-interes-item:hover{
+  background: #b0c613;
+}
+/***********boton importante home************/
+@keyframes heartbeat
+{
+  0%{transform: scale( .97 );}
+  20%{transform: scale( 1 );}
+  40%{transform: scale( .97 );}
+  60%{transform: scale( 1 );}
+  80%{transform: scale( .97 );}
+  100%{transform: scale( .97 );}
+}
+.main-important-link a {
+    animation: heartbeat 1s infinite;
+    background: #019886;
+    border-radius: 5px;
+    bottom: 0;
+    box-shadow: 5px -5px #123d47;
+    color: #fff;  
+    display: inline-block;
+    float: right;
+    padding: 20px 40px;
+    margin-top: 40%;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.main-important-link a:hover{
+    background-color: #b1c406;
+    box-shadow: 5px -5px #113d46;
+    color: #ffffff;
+    transition-duration: 500ms;
+}
+/***********Calidad del aire -> Fotos ************/
+.page-id-6783 .elementor-6783 .elementor-element.elementor-element-d132b2e .elementor-image-carousel-caption{
+    margin-top: 20px;
+    color: #123d47;
+}
+
+/***********menu************/
+#menu-menu-principal li.menu-item-has-children ul li.menu-item-has-children ul{
+  margin-left: 163px; 
+  margin-top: -27px;
+  display: none;
+}
+#menu-menu-principal li.menu-item-has-children ul li.menu-item-has-children:hover ul{
+  display: block;
+}
+#menu-menu-principal li#menu-item-6472.menu-item-has-children ul li.menu-item-has-children ul{
+  margin-left: 258px; 
+}
+#menu-menu-principal li#menu-item-6479.menu-item-has-children ul li.menu-item-has-children ul{
+  margin-left: 243px; 
+}
+/*************slick condiciones atmosfericas***********/
+.slide-maps .legend-maps img
+
+.page-id-7067 .slide-maps .legend-maps img{
+	float: left;
+	width: 300px !important;
+}
+/*************ruido**********/
+.page-id-7432 .elementor-7432 .elementor-element.elementor-element-7aff6a7 .elementor-image-carousel-caption{
+  padding-top: 40px;
+}
+
+
+/*************videos**********/
+
+.page-id-4490 h4{
+	min-height: 55px;
+}
+.video-item{
+  text-align: center;
+}
+.video-item span{
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 16px;
+  display: block;  
+}
+
+.page-id-6365 .video-item, 
+.page-id-6379 .video-item,
+.page-id-6299 .video-item,
+.page-id-4486 .video-item,
+.page-id-7739 .video-item,
+.page-id-5935 .video-item,
+.page-id-8370 .video-item,
+.page-id-9799 .video-item,
+.page-id-10283 .video-item,
+.page-id-10030 .video-item{
+	max-width: 580px;
+	margin: auto;
+}
+.center-element{
+  text-align: center;
+}
+
+.video-item-pop{
+  max-width: 560px;  
+  max-height: 315px;
+}
+.video-item-pop video{
+  width: 100%;
+}
+
+/*************slide de imagenes**********/
+.page-id-7697 figcaption.elementor-image-carousel-caption, 
+.page-id-8544 figcaption.elementor-image-carousel-caption,
+.page-id-7088 figcaption.elementor-image-carousel-caption,
+.page-id-9191 figcaption.elementor-image-carousel-caption,
+.page-id-6786 figcaption.elementor-image-carousel-caption,
+.page-id-9382 figcaption.elementor-image-carousel-caption,
+.page-id-9383 figcaption.elementor-image-carousel-caption{
+  margin-top: 20px; 
+}
+
+/**************autor************/
+.page-id-4126 figcaption.elementor-image-carousel-caption{
+  margin-top: 15px;
+  font-size: 12px; 
+}
+
+
+a.btn-short{
+  background-color: #019886;
+  border-radius: 5px;
+  display: inline-block;
+  color: #fff;
+  padding: 15px 15px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a.btn-short:hover{
+  background-color: #b0c613;
+}
+
+/********breadcrumbs*********/
+
+main .breadcrumb-class a{
+  color:#b0c613;
+}
+main .breadcrumb-class a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+main .breadcrumb-class span{
+  font-weight: 500;
+}
+
+
+/**********img*************/
+
+.img-popup .img-item{
+}
+.img-popup .img-item img{
+  max-width: 700px;  
+}
+
+/**********Eventos Ambientales*************/
+.page-id-4481 h3{
+  font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+  color: #123d47;
+  font-size: 30px;
+  line-height: 30px;
+}
+.page-id-4481 .divider{
+  border-top: 3px solid #bbb;
+  margin-top: 25px;
+}
+
+/**********Vinculos formatos*************/
+.link-item{
+  display: inline-flex;
+  margin:10px 0;
+}
+.link-item h4{
+  font-size: 16px;
+}
+a.btn-shorta{
+  background-color: #019886;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin: -15px 10px 10px 10px;
+  padding: 10px 10px;  
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+a.btn-shorta:hover{
+  background-color: #b0c613;
+}
+
+.page-id-5247 .elementor-tab-title{
+  text-align: center;
+}
+@media screen and (max-width: 1100px){
+  .head .head-container{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px){  
+  .page-id-5247 .elementor-tab-title{
+    text-align: center;
+  }
+  .page-template .head h1.the-title{
+    font-size: 45px;
+  }
+  .page-template .detalle .content.row.sidebar-row{
+    display: grid;
+  }
+  .page-template #content-details{
+    width: 100%;
+    order: 2;
+  }
+  .page-template #sidebar-right{
+    margin: auto;
+    order: 1;
+    width: 100%;    
+  }
+  .page-template #content-details .elementor{
+    display: grid;    
+  }
+  .page-template #content-details .elementor div.elementor-column:nth-child(1) {
+    padding: 0;
+    order: 2;
+    width: 100%;
+  }
+  .page-template #content-details .elementor div.elementor-column:nth-child(1) .elementor-column-wrap{
+    padding: 0;
+  }
+  .page-template #content-details .elementor div.elementor-column:nth-child(2) {
+    order: 1;
+    width: 100%;
+  }
+  .page-template #content-details .elementor-widget-image-carousel{
+    margin: auto;
+    max-width: 450px;    
+  }
+  .page-template #content-details video{
+    display: block;
+    margin: auto;
+    max-width: 450px;
+    max-height: 333px;
+  }
+
+}
+@media screen and (max-width: 460px){
+  .page-template .head h1.the-title{
+    font-size: 30px;
+  }
+  .page-template #content-details .elementor-widget-image-carousel{
+    max-width: 300px;    
+  }
+  .page-template #content-details video{
+    max-width: 300px;
+    max-height: 333px;
+  }
+}
+.elementor-element-fc80038 .elementor-accordion-item, .elementor-element-7659262 .elementor-accordion-item, .elementor-element-16babce .elementor-accordion-item, .elementor-element-094e07f .elementor-accordion-item, .elementor-element-5f9929d .elementor-accordion-item, .elementor-element-5804bbe .elementor-accordion-item, .elementor-element-6508d0f .elementor-accordion-item, .elementor-element-ed6de3b .elementor-accordion-item, .elementor-element-102c497 .elementor-accordion-item, .elementor-element-2fc96f2 .elementor-accordion-item{
+  display: none;
+}
+.elementor-element-7659262 .elementor-accordion-item:nth-child(1),.elementor-element-7659262 .elementor-accordion-item:nth-child(2), .elementor-element-16babce .elementor-accordion-item:nth-child(1), .elementor-element-16babce .elementor-accordion-item:nth-child(2), .elementor-element-094e07f .elementor-accordion-item:nth-child(1), .elementor-element-094e07f .elementor-accordion-item:nth-child(2), .elementor-element-5f9929d .elementor-accordion-item:nth-child(1), .elementor-element-5f9929d .elementor-accordion-item:nth-child(2), .elementor-element-5804bbe .elementor-accordion-item:nth-child(1), .elementor-element-5804bbe .elementor-accordion-item:nth-child(1), .elementor-element-6509d0f .elementor-accordion-item:nth-child(1), .elementor-element-6508d0f .elementor-accordion-item:nth-child(1), .elementor-element-ed6de3b .elementor-accordion-item:nth-child(1), .elementor-element-102c497 .elementor-accordion-item:nth-child(1), .elementor-element-102c497 .elementor-accordion-item:nth-child(2), .elementor-element-2fc96f2 .elementor-accordion-item:nth-child(1), .elementor-element-2fc96f2 .elementor-accordion-item:nth-child(2){
+  display: block;
+}
+//update code jun 2022
+.accordeon-2-col{
+	width: 100%;
+}
+.accordeon-2-col .acordeon-col1{
+	float: left;
+	padding: 15px;
+	width: 50%;
+}
+.accordeon-2-col .acordeon-col2{
+	float: left;
+	line-height:20px;
+	width: 50%;
+}
+
+/**********Predios*************/
+#iFramePredios {
+	height: 100vh;
+}

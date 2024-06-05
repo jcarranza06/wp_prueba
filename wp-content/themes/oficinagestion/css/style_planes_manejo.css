@@ -1,0 +1,165 @@
+h1,h2,h3,h4,h5 {
+	font-family: "Ancizar sans", Tahoma, Geneva, sans-serif;
+}	
+#tituloPaginaPlanManejo{
+	margin-bottom: 10px;
+}
+#planesContainer {
+	margin-bottom: 70px;
+    display: grid;
+    position: relative;
+    overflow: visible;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+#planesContainer .facultadContainer:nth-child(5n), #planesContainer .facultadContainer:nth-child(5n+1), #planesContainer .facultadContainer:nth-child(5n+3) {
+    transform: translateY(50px);
+}
+#planesContainer .facultadContainer:nth-child(5n):hover, #planesContainer .facultadContainer:nth-child(5n+1):hover, #planesContainer .facultadContainer:nth-child(5n+3):hover {
+    transform: translateY(30px);
+}
+
+.objetiveContainer{
+    clear: both;
+	margin: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#content-PM {
+    width: 80%;
+}
+
+.detalle .content {
+    margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+.goal {
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0px 0px 20px 6px #bfbebe;
+    float: left;
+    border-radius: 5px;
+    border-width: 2px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goalContainer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+	margin: 3px;
+}
+
+.chartContainer {
+    min-width: 30px;
+    max-width: 100px;
+	margin: 3px;
+}
+
+.rowObjetive{
+    float: left;
+}
+
+.goalsContainer{
+    width: 70%;
+}
+.resumeContainer{
+    width: 30%;
+	margin-bottom: 30px;
+}
+
+.facultadContainer {
+	background-color: #DDDDDD;
+    padding: 10px;
+	box-shadow: 0px 0px 10px gray;
+	transition: 0.5s;
+}
+.facultadContainer:hover {
+    transform: translateY(-20px);
+}
+
+.facultadContainer img {
+    width: 100%;
+}
+.goalTitle {
+    margin: 5px;
+}
+.labelFacultadContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1025px) {
+    /*Big winsow*/
+  }
+
+  @media screen and (max-width: 1024px) {
+    /*Medium*/
+    
+  }
+  @media screen and (max-width: 680px) {
+    /*Medium*/
+    #planesContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #planesContainer .facultadContainer:nth-child(5n), #planesContainer .facultadContainer:nth-child(5n+1), #planesContainer .facultadContainer:nth-child(5n+3) {
+        transform: translateY(0px);
+    }
+    #planesContainer .facultadContainer:nth-child(5n):hover, #planesContainer .facultadContainer:nth-child(5n+1):hover, #planesContainer .facultadContainer:nth-child(5n+3):hover {
+        transform: translateY(-20px);
+    }
+    #planesContainer .facultadContainer:nth-child(3n), #planesContainer .facultadContainer:nth-child(3n+1) {
+        transform: translateY(50px);
+    }
+    #planesContainer .facultadContainer:nth-child(3n):hover, #planesContainer .facultadContainer:nth-child(3n+1):hover {
+        transform: translateY(30px);
+    }
+	#content-PM {
+		width: 95%;
+	}
+  }
+
+  @media screen and (max-width: 480px) {
+    /*Min window*/
+	#planesContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #planesContainer .facultadContainer:nth-child(3n), #planesContainer .facultadContainer:nth-child(3n+1) {
+        transform: translateY(0px);
+    }
+    #planesContainer .facultadContainer:nth-child(3n):hover, #planesContainer .facultadContainer:nth-child(3n+1):hover {
+        transform: translateY(0px);
+    }
+	#planesContainer .facultadContainer:nth-child(2n+1) {
+        transform: translateY(50px);
+    }
+    #planesContainer .facultadContainer:nth-child(2n+1):hover {
+        transform: translateY(30px);
+    }
+	.contentObjetiveContainer {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.goalsContainer{
+		width: 100%;
+	}
+	.resumeContainer{
+		width: 100%;
+	}
+	.objetiveContainer{
+		margin: 20px;
+		margin-bottom: 60px;
+	}
+	.detalle .content {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+  }

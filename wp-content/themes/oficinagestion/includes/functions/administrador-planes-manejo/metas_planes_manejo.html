@@ -1,0 +1,54 @@
+<div>
+    <div>
+        <h2>Objetivo <span id="mainTitle"></span></h2>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h3>Metas</h3>
+            </div>
+            <div>
+                <table class="table table-hover" id="goalList">
+                    <tr>
+                        <td class="">Nombre</td>
+                        <td class="">Descripcion</td>
+                        <td class="">Ponderacion</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="titleForm"><h2>Agregar Meta</h2></div>
+        <div id="idGoal"></div>
+        <div id="idObjetivo"></div>
+        <div>
+            <label for="inputNombreGoal">Nombre</label>
+            <input type="text" class="form-control" id="inputNombreGoal" placeholder="mejora">
+        </div>
+        <div>
+            <label for="inputDescipcionGoal">Descripcion</label>
+            <textarea class="form-control" id="inputDescipcionGoal" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="selectPonderacion">Ponderacion</label>
+            <select class="form-control" id="selectPonderacion">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div>
+            <input type="color" id="selectColor">
+        </div>
+        <div id="containerBtnInsertGoal">
+            <button class="btn btn-primary"  id="btnInsertGoal" onclick="pressInsert()">Agregar</button>
+        </div>
+        <div id="containerBbtnModifyGoal">
+            <button class="btn btn-primary"  id="btnModifyGoal" onclick="sendModify()">Modificar</button>
+            <button class="btn btn-primary"  id="btnCancelModify">Cancelar</button>
+        </div>
+    </div>
+</div>
